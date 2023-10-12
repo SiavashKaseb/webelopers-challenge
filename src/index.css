@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/woff/IRANSansX-medium.woff") format("woff"),
+    url("./assets/fonts/woff2/IRANSansX-medium.woff2") format("woff2");
+}
+
+* {
+  font-family: "IRANSansX";
+}
+
+body{
+  background-color: black;
+  color: white !important;
+}

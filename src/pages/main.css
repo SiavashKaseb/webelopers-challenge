@@ -1,0 +1,21 @@
+.backSec {
+  background: #0f0f0f;
+  background: -webkit-linear-gradient(0deg, #0f0f0f 0%, #8130f2 100%);
+  background: linear-gradient(0deg, #0f0f0f 0%, #8130f2 100%);
+}
+
+.dotBack {
+  background-image: radial-gradient(#8130f2 2px, transparent 2px);
+  background-size: 32px 32px;
+  background-color: #000000;
+}
+
+.beya {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* تعداد خطوط که قابل نمایش است */
+  line-height: 1.8; /* ارتفاع خط */
+  max-height: 5.4em; /* ارتفاع کل پاراگراف */
+}
